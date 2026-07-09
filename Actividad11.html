@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Ejercicio 10 - Conversor Celsius a Fahrenheit</title>
+<title>Ejercicio 11 - Conversor Kilómetros a Millas</title>
 <style>
   body {
     font-family: Arial, sans-serif;
@@ -41,7 +41,7 @@
     margin-top: 20px;
     width: 100%;
     padding: 10px;
-    background-color: #2a80ff;
+    background-color: #2a9d40;
     color: white;
     border: none;
     border-radius: 5px;
@@ -49,7 +49,7 @@
     cursor: pointer;
   }
   button:hover {
-    background-color: #1a60cc;
+    background-color: #1f7a30;
   }
   #mensaje {
     color: red;
@@ -62,45 +62,42 @@
 <body>
 
 <div class="contenedor">
-  <h2>Celsius a Fahrenheit</h2>
+  <h2>Kilómetros a Millas</h2>
 
-  <label for="celsius">Grados Celsius:</label>
-  <input type="text" id="celsius" placeholder="Ej. 25">
+  <label for="km">Distancia en kilómetros:</label>
+  <input type="text" id="km" placeholder="Ej. 10">
   <div id="mensaje"></div>
 
   <button onclick="convertir()">Convertir</button>
 
-  <label for="fahrenheit">Grados Fahrenheit:</label>
-  <input type="text" id="fahrenheit" readonly>
+  <label for="millas">Distancia en millas:</label>
+  <input type="text" id="millas" readonly>
 </div>
 
 <script>
   function convertir() {
-    const celsiusInput = document.getElementById("celsius");
+    const kmInput = document.getElementById("km");
     const mensaje = document.getElementById("mensaje");
-    const fahrenheitInput = document.getElementById("fahrenheit");
+    const millasInput = document.getElementById("millas");
 
-    const valor = celsiusInput.value.trim();
+    const valor = kmInput.value.trim();
 
-    // Validación: campo vacío
     if (valor === "") {
       mensaje.textContent = "El campo no puede estar vacío.";
-      fahrenheitInput.value = "";
+      millasInput.value = "";
       return;
     }
 
-    // Validación: valor numérico
-    const celsius = Number(valor);
-    if (isNaN(celsius)) {
+    const km = Number(valor);
+    if (isNaN(km)) {
       mensaje.textContent = "Ingresa un valor numérico válido.";
-      fahrenheitInput.value = "";
+      millasInput.value = "";
       return;
     }
 
-    // Si pasa las validaciones, limpiar mensaje y calcular
     mensaje.textContent = "";
-    const fahrenheit = (celsius * 9 / 5) + 32;
-    fahrenheitInput.value = fahrenheit.toFixed(2) + " °F";
+    const millas = km * 0.621371;
+    millasInput.value = millas.toFixed(5) + " mi";
   }
 </script>
 
