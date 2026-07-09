@@ -23,11 +23,11 @@ Uso de etiquetas para dar formato al texto, incluyendo párrafos, texto en negri
 
 Ejercicio 3 – Enlaces Simples
 
-Creación de enlaces externos utilizando la etiqueta <a> y los atributos target="_blank" y target="_self".
+Creación de enlaces externos utilizando la etiqueta '<a>' y los atributos target="_blank" y target="_self".
 
 Ejercicio 4 – Imágenes Básicas
 
-Inserción de imágenes mediante la etiqueta <img>, utilizando atributos como src, alt y width.
+Inserción de imágenes mediante la etiqueta '<img>', utilizando atributos como src, alt y width.
 
 Ejercicio 5 – Combinando Texto y Enlaces
 
@@ -35,7 +35,7 @@ Integración de imágenes, texto y enlaces dentro de una misma página para refo
 
 Ejercicio 6 – Secciones Semánticas
 
-Uso de las etiquetas semánticas <header>, <section> y <footer> para organizar correctamente la estructura del documento.
+Uso de las etiquetas semánticas '<header>, <section> y <footer>' para organizar correctamente la estructura del documento.
 
 Ejercicio 7 – Listas Anidadas
 
@@ -43,11 +43,11 @@ Desarrollo de una receta utilizando listas ordenadas y desordenadas, aplicando l
 
 Ejercicio 8 – Horario de Clases
 
-Creación de una tabla con el horario semanal utilizando <table>, <thead>, <tbody>, <tr>, <th> y <td>, incorporando estilos con CSS.
+Creación de una tabla con el horario semanal utilizando '<table>, <thead>, <tbody>, <tr>, <th> y <td>', incorporando estilos con CSS.
 
 Ejercicio 9 – Formulario de Contacto
 
-Diseño de un formulario de contacto utilizando elementos de HTML5 como <form>, <input>, <textarea>, <select>, <fieldset> y <button>, aplicando validaciones y estilos mediante CSS.
+Diseño de un formulario de contacto utilizando elementos de HTML5 como '<form>, <input>, <textarea>, <select>, <fieldset> y <button>', aplicando validaciones y estilos mediante CSS.
 
 Actividad 10 – Conversor de Temperatura
 
